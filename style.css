@@ -1,25 +1,17 @@
+body,
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 h2 {
+    margin: 40px 0 60px 0;
     text-align: center;
-    line-height: 1.2;
-    margin: 40px 0 40px 0;
 }
 
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-section img {
-    width: 55%;
-}
-
-#charte-1 {
-    margin-bottom: 50px;
+img {
+    width: 50%;
+    margin-bottom: 95px;
+    box-shadow: -2px 49px 60px -60px #919191;
 }
